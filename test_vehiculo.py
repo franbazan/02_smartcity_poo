@@ -18,6 +18,7 @@ print(coche1.obtener_estado())
 
 print("\n--- Prueba 3: Intento de sobrecarga (freno en 100%) ---")
 coche1.recargar(100.0)
+<<<<<<< HEAD
 print(coche1.obtener_estado())
 
 print("\n--- Prueba 4: Provocar error con batería negativa ---")
@@ -33,3 +34,6 @@ try:
     print("❌ FALLO: El sistema permitió reducir el odómetro.")
 except ValueError as error:
     print(f"✅ ÉXITO: Bloqueado por el setter -> {error}")
+=======
+print(coche1.obtener_estado())
+>>>>>>> d666b228244c85f2303f8eaf0351d35b8ac846e9
